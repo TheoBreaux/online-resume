@@ -86,7 +86,7 @@ a {
   color: rgb(165, 162, 162);
   margin-bottom: -20px;
   margin-top: 30px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 /* RESUME BODY */
@@ -102,12 +102,29 @@ a {
   margin-right: 50px;
 }
 
-.employment {
+.education,
+.technical-skills,
+.core-skills,
+.projects {
   display: flex;
   background-color: #424242;
-  margin-top: 60px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+}
+
+dt {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+dd {
+  color: #a5a2a2;
+}
+
+a {
+  text-decoration: none;
 }
 
 .down-arrow {
@@ -118,7 +135,7 @@ a {
   border-radius: 5px;
   height: auto;
   color: white;
-  background-color: #3190ad;
+  background-color: #7ebd01;
   font-weight: bold;
 }
 
@@ -150,7 +167,7 @@ a {
   margin-bottom: 0;
 }
 
-.job-title {
+.education-title {
   color: rgb(165, 162, 162);
   font-size: 15px;
   margin-top: 0;
@@ -163,12 +180,13 @@ a {
   margin-left: auto;
 }
 
-.job-description {
+.job-description,
+.education-description {
   margin-top: 0;
   color: rgb(165, 162, 162);
 }
 
-.job-summary {
+.education-summary {
   display: flex;
   margin-top: 20px;
   align-items: center;
@@ -222,7 +240,7 @@ a {
   background-color: rgb(95, 95, 175);
 }
 
-.php {
+.react {
   width: 80%;
   background-color: rgb(42, 42, 158);
 }
@@ -237,9 +255,13 @@ a {
   background-color: goldenrod;
 }
 
-.my-sql {
-  width: 70%;
+.java {
+  width: 30%;
   background-color: red;
+}
+.python {
+  width: 40%;
+  background-color: orangered;
 }
 
 .graphic-skills {
