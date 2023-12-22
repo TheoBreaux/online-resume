@@ -171,6 +171,14 @@ a {
   color: rgb(165, 162, 162);
   font-size: 15px;
   margin-top: 0;
+  margin-bottom: -10;
+}
+
+.location {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0;
 }
 
 .time-frame {
@@ -188,7 +196,6 @@ a {
 
 .education-summary {
   display: flex;
-  margin-top: 20px;
   align-items: center;
 }
 
