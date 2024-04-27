@@ -5,7 +5,7 @@ body {
 /* SOCIAL MEDIA */
 .socials {
   padding: 20px;
-  background-color: black;
+  background-color: whitesmoke;
   display: flex;
   flex-direction: column;
 }
@@ -16,14 +16,14 @@ body {
 }
 
 .fa-brands {
-  font-size: 20px;
+  font-size: 0px;
   padding-right: 10px;
 }
 
 /* HEADER */
 header {
   padding: 30px;
-  background-color: rgb(49, 47, 47);
+  background-color: rgba(25, 55, 88, 255);
 }
 
 #details {
@@ -93,7 +93,7 @@ a {
 .resume-container {
   display: flex;
   padding: 20px;
-  background-color: rgb(49, 47, 47);
+  background-color: rgba(25, 55, 88, 255);
   border-top: 2px solid rgb(165, 162, 162);
 }
 
@@ -250,6 +250,11 @@ a {
 .react {
   width: 80%;
   background-color: rgb(42, 42, 158);
+}
+
+.react-native {
+  width: 80%;
+  background-color: rgb(218, 125, 50);
 }
 
 .html {
